@@ -16,6 +16,11 @@
     ga('create', 'UA-84150714-1', 'auto');
     ga('send', 'pageview');
   </script>
+  <script>
+    function onClick() {
+    document.getElementById("link").innerHTML = "Click <a href='http://www.waterwalla.org'>here</a> to learn more about my work in India.";
+    }
+</script>
 </head>
 
 <body>
@@ -27,6 +32,10 @@
     My primary career focus has been improving water quality and access in Mumbai's slums.
     Now that I'm at Cornell Tech, I would like to begin to use technology as a tool for development.
   </p>
+
+<p class="question" id="link">Want to know more?</p>
+<button type="button" onclick="onClick()">Click here</button>
+
 </body>
 
 </html>
